@@ -66,7 +66,7 @@ export default function Home() {
             <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center">
               <section className="text-gray-900 body-font">
                 <div className="container px-5 py-23 mx-auto ">
-                  <div className=" w-full mx-auto px-28 mx-auto">
+                  <div className=" w-full px-28 mx-auto">
                     <h1 className=" font-bold pb-8 text-2xl">About Project</h1>
                     <p className="leading-relaxed text-xl">
                       Welcome to Trusti, your all-in-one financial assistant! We offer real-time insights,
@@ -92,8 +92,6 @@ export default function Home() {
               </div>
             </div>
 
-
-
             {/* third picture */}
             <div className="container mx-auto mt-16 flex flex-wrap flex-col md:flex-row items-center">
               <div className="">
@@ -103,7 +101,6 @@ export default function Home() {
                   alt="..." />
               </div>
             </div>
-
 
 
             {/* second picture */}
@@ -117,13 +114,11 @@ export default function Home() {
             </div>
 
 
-
             {/*1st cards */}
-
             <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center">
               <section className="text-gray-900 body-font">
                 <div className="container px-5 py-23 mx-auto ">
-                  <div className=" w-full mx-auto px-28 mx-auto">
+                  <div className=" w-full px-28 mx-auto">
                     <h1 className=" font-bold text-4xl text-center">Everyday Personal Finance, Tailored to Meet Your Aspirations</h1>
                     <div className="grid grid-cols-3 gap-4 flex-wrap mt-16 text-center">
                       <div className="relative p-5 bg-gray-100 border-2 border-gray-300 rounded-lg">
@@ -209,25 +204,23 @@ export default function Home() {
             <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center">
               <section className="text-gray-900 body-font">
                 <div className="container py-23 mx-auto cursor-pointer ">
-                  <div className=" w-full mx-auto px-32 mx-auto pb-10 rounded-xl bg-gradient-to-r from-transparent via-transparent to-red-300/10">
-    <div className="text-gray-600 body-font bg-gray-100 border-2  rounded-3xl pb-10">
-  <div className="container mx-auto flex  md:flex-row flex-col mb-20 ">
-  <div className='flex flex-col justify-center items-center'>
-	<div className='stack h-40 w-80 relative '>
-		<div className='absolute cursor-pointer left-16 top-8 w-full h-full z-20 '>
-		<div className="relative isolate  flex flex-col justify-end overflow-hidden rounded-xl pt-44  mx-auto">
-    <img src="images/manlaptopcoffee.jpg" alt=""
-     className="absolute inset-0 h-full w-full object-cover"/>
-    <div className="absolute inset-2">
+                  <div className=" w-full px-32 mx-auto pb-10 rounded-xl bg-gradient-to-r from-transparent via-transparent to-red-300/10">
+                   <div className="text-gray-600 body-font bg-gray-100 border-2  rounded-3xl pb-10">
+                   <div className="container mx-auto flex  md:flex-row flex-col mb-20 ">
+                <div className='flex flex-col justify-center items-center'>
+             	<div className='stack h-40 w-80 relative '>
+		         <div className='absolute cursor-pointer left-16 top-8 w-full h-full z-20 '>
+		      <div className="relative isolate  flex flex-col justify-end overflow-hidden rounded-xl pt-44  mx-auto">
+                <img src="images/manlaptopcoffee.jpg" alt=""className="absolute inset-0 h-full w-full object-cover"/><div className="absolute inset-2">
   
-<ul className="grid mt-3">
-  <li className="bg-white backdrop-filter backdrop-blur-xl bg-opacity-80 transform rounded-lg  ">
-    <div className="flex w-full items-center justify-between space-x-4 p-2">
-    <img className="h-8 w-8 rounded-full bg-gray-300" src="https://qph.cf2.quoracdn.net/main-thumb-554097988-200-xietklpojlcioqxaqgcyykzfxblvoqrb.jpeg" alt=""/>
-      <div className="flex-1">
-        <div className="flex items-center">
-          <h3 className="text-sm font-medium text-gray-900">Drinks at Yonder</h3>
-        </div>
+          <ul className="grid mt-3">
+            <li className="bg-white backdrop-filter backdrop-blur-xl bg-opacity-80 transform rounded-lg  ">
+           <div className="flex w-full items-center justify-between space-x-4 p-2">
+           <img className="h-8 w-8 rounded-full bg-gray-300" src="https://qph.cf2.quoracdn.net/main-thumb-554097988-200-xietklpojlcioqxaqgcyykzfxblvoqrb.jpeg" alt=""/>
+             <div className="flex-1">
+            <div className="flex items-center">
+           <h3 className="text-sm font-medium text-gray-900">Drinks at Yonder</h3>
+                 </div>
         <p className="mt-1 text-xs text-gray-500">$30.50</p>
       </div>
       <span className=" text-xs font-medium text-gray-900 ">11:30am</span>
@@ -236,7 +229,7 @@ export default function Home() {
     </div>
     
   </li>
-</ul>
+          </ul>
     </div>
     </div>
 		</div>
@@ -307,7 +300,7 @@ export default function Home() {
 
             <div className="container mx-auto bg-gray-100 h-full w-full rounded-lg">
               <div className=" py-20">
-                <div className="w-full mx-auto px-32 mx-auto">
+                <div className="w-full px-32 mx-auto">
                   <h2 className="mb-16 text-5xl font-semibold text-gray-900 text-center"> Your Personal Finance Sidekick</h2>
       <div className="grid lg:grid-cols-2 gap-3">
 
@@ -403,7 +396,7 @@ export default function Home() {
 
               {/* border div */}
             <div className="container mx-auto w-full h-full  rounded-full -mt-8 bg-white">
-<div className=" rounded-full border-white py-6 border-t-2 border-gray-400"></div>
+<div className=" rounded-full py-6 border-t-2 border-gray-400"></div>
                  </div>
 
 
@@ -472,7 +465,7 @@ export default function Home() {
                     <div className="mx-auto max-w-screen-2xl pb-14 md:px-8 bg-gradient-to-l from-transparent from-0% via-yellow-100 to-transparent">
 
     <div className="bg-gradient-to-r from-yellow-200 from-10% via-green-300 via-60% to-emerald-400 rounded-3xl shadow-lg p-8 flex item-center justify-between">
-        <div className=" text-white flex pt-2 text-black ">
+        <div className="flex pt-2 text-black ">
           <p className="text-7xl font-bold text-black text"> 30</p>
           <p className="text-black pt-2 text-xl font-bold">
             %
