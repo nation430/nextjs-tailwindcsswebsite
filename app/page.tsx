@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Picture from "../components/picture"
 
 export default function Home() {
   return (
@@ -82,37 +83,8 @@ export default function Home() {
 
             </div>
 
-            {/* second picture */}
-            <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
-              <div className="">
-                <img
-                  src="images/second.png"
-                  className="h-auto max-w-full"
-                  alt="..." />
-              </div>
-            </div>
-
-            {/* third picture */}
-            <div className="container mx-auto mt-16 flex flex-wrap flex-col md:flex-row items-center">
-              <div className="">
-                <img
-                  src="images/third.png"
-                  className="h-auto max-w-full"
-                  alt="..." />
-              </div>
-            </div>
-
-
-            {/* second picture */}
-            <div className="container mx-auto flex mt-16 flex-wrap flex-col md:flex-row items-center">
-              <div className="">
-                <img
-                  src="images/second.png"
-                  className="h-auto max-w-full"
-                  alt="..." />
-              </div>
-            </div>
-
+            
+            <Picture />
 
             {/*1st cards */}
             <div className="container mx-auto flex flex-wrap py-16 flex-col md:flex-row items-center">
@@ -632,7 +604,6 @@ export default function Home() {
           </h2>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 py-2 md:py-6 w-full">
-	
   <div className="flex item-center  h-fit relative overflow-hidden group ">
     <a className="" href="">
    <img src="https://cdn.dribbble.com/userupload/15524891/file/original-a30aa1c36729b7bffaa65244990b4348.png?resize=400x300&amp;vertical=center" sizes="263px"/>
@@ -655,9 +626,9 @@ export default function Home() {
                     </button>
                   </a>
                   </div>
-    </li>
-    </a>
-	</div>
+                   </li>
+                 </a>
+  </div>
 
   <div className="flex item-center h-fit relative overflow-hidden group ">
     <a className="" href="">
