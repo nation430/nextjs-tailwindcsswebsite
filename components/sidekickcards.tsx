@@ -2,9 +2,9 @@ import React from "react";
 
 const Sidekickcards = () => {
     return (
-        <main className="mx-auto  relative bg-white ">
+        <main className="mx-auto  relative ">
         <div className="container mx-auto bg-gray-100 h-full w-full rounded-lg">
-              <div className=" py-20">
+              <div className=" pb-20">
                 <div className="w-full px-32 mx-auto">
                 <div className="grid lg:grid-cols-2 gap-3">
       <div className="relative w-full  sm:h-96 lg:h-full bg-white rounded-lg p-6" >
@@ -38,7 +38,7 @@ const Sidekickcards = () => {
 	  </div>
 	  <div className="grid grid-cols-2 lg:grid-cols-1 gap-3 ">
 		<div className="relative w-full bg-white rounded-lg p-6">
-    <h3 className="my-2  text-2xl font-semibold text-gray-800">Interest Foresting</h3>
+    <h3 className="my-2  text-3xl font-semibold text-gray-800">Interest Foresting</h3>
     <p className="mb-2 text-sm text-gray-600">Insights into your potential interest earnings, helping you envision the growth of your investments over time.</p>
  
  

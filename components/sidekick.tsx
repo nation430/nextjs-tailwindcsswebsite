@@ -40,7 +40,7 @@ const Sidekick = () => {
 	  </div>
 	  <div className="grid grid-cols-2 lg:grid-cols-1 gap-3 ">
 		<div className="relative w-full bg-white rounded-lg p-6">
-    <h3 className="my-2  text-2xl font-semibold text-gray-800">Interest Foresting</h3>
+    <h3 className="my-2  text-3xl font-semibold text-gray-800">Interest Foresting</h3>
     <p className="mb-2 text-sm text-gray-600">Insights into your potential interest earnings, helping you envision the growth of your investments over time.</p>
 {/* <!-- card --> */}
    

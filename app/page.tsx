@@ -4,7 +4,7 @@ import Istcard from "../components/istcard"
 import Sidekick from "@/components/sidekick";
 import Testimonials from "@/components/testimonials";
 import Moreproduct from "@/components/moreproduct";
-import Sidekickcards from "@/components/sidekickcards";
+// import Sidekickcards from "@/components/sidekickcards";
 
 export default function Home() {
   return (
@@ -194,7 +194,7 @@ export default function Home() {
             {/* sidekick page */}
 
              < Sidekick />
-             < Sidekickcards />
+             {/* < Sidekickcards /> */}
 
              
               {/* border div */}
