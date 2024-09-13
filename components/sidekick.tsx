@@ -3,8 +3,6 @@ import React from "react";
 const Sidekick = () => {
     return (
         <main className="mx-auto  relative bg-white ">
-        
-        
         <div className="container mx-auto bg-gray-100 h-full w-full rounded-lg">
               <div className=" py-20">
                 <div className="w-full px-32 mx-auto">
